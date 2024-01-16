@@ -6,9 +6,9 @@ from discord_webhook import DiscordEmbed, DiscordWebhook
 
 from keepalive import keep_alive
 
-webhookkey = os.environ['KEY']
+webhookkey1 = os.environ['webhookkey']
 keep_alive()
-webhookurl = f"https://discord.com/api/webhooks/{webhookkey}"
+webhookurl = f"https://discord.com/api/webhooks/{webhookkey1}"
 webhook_enable = True
 minimum_amount = 500
 ping = "<@&1190896859921788999>"
