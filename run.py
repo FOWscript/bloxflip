@@ -46,7 +46,7 @@ while True:
                     webhook.remove_embed(0)
                     time.sleep(240)
             else:
-                time.sleep(130)
+                time.sleep(refresh)
         elif check['active'] is False:
             time.sleep(refresh)
     except Exception as e:
