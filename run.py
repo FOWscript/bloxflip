@@ -43,8 +43,8 @@ while True:
                     embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/1179047888261754962/1190910016375500850/image.png?ex=65a38461&is=65910f61&hm=7f118e1c897586dd3de68e01b05d619f8b029b4eab025d63731b2bff87f798e8&")
                     webhook.add_embed(embed)
                     webhook.execute()
-                    webhook.remove_embed(0)
                     time.sleep(240)
+                    webhook.remove_embed(0)
             else:
                 time.sleep(refresh)
         elif check['active'] is False:
